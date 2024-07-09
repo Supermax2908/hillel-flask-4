@@ -1,0 +1,2 @@
+def story():
+    print('This is Ivan')
