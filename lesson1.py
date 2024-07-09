@@ -7,6 +7,7 @@ def hello():
     print('Hello world!')
     print((datetime.now()))
     print(platform.platform())
+    print((datetime.now().strftime("%A")))
     print('Goodbye')
 
 
