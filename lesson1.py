@@ -1,13 +1,11 @@
 from datetime import datetime
-import platform
 
 
 def hello():
     print('Initialization')
     print('Hello world!')
     print((datetime.now()))
-    print(platform.platform())
-    print((datetime.now().strftime("%A")))
+    print(datetime.now().strftime('%A'))
     print('Goodbye')
 
 
